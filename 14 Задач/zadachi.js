@@ -107,3 +107,33 @@ function sumOfCommon(array1Zadacha7, array2Zadacha7, array3Zadacha7) {
     return summaZadacha7
 }
 console.log("ЗАДАЧА 7: ", sumOfCommon(array1Zadacha7, array2Zadacha7, array3Zadacha7))
+
+/// ЗАДАЧА 8 
+
+/// ЗАДАЧА 9 
+
+slovo1Zadacha9 = "покажи"
+slovo2Zadacha9 = "пока"
+proverka = 0
+
+function canMakeString(slovo1Zadacha9, slovo2Zadacha9) {
+    for (let i = 0; i < slovo1Zadacha9.length; i++) {
+        const element1 = slovo1Zadacha9[i];
+        for (let j = 0; j < slovo2Zadacha9.length; j++) {
+            const element2 = slovo2Zadacha9[j];
+            if (element1 == element2) {
+                proverka = proverka + 1
+            }
+        }   
+    }
+    if (proverka == slovo2Zadacha9.length) {
+        return true
+    }
+    else
+        return false
+}
+console.log("ЗАДАЧА 9: ", canMakeString(slovo1Zadacha9, slovo2Zadacha9))
+
+/// ЗАДАЧА 10
+
+/// ЗАДАЧА 11
