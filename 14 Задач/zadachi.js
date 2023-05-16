@@ -137,3 +137,56 @@ console.log("ЗАДАЧА 9: ", canMakeString(slovo1Zadacha9, slovo2Zadacha9))
 /// ЗАДАЧА 10
 
 /// ЗАДАЧА 11
+
+shirina = 5
+dlina = 3
+ploschadPryamougolnika = shirina * dlina
+arrayKvadratov11 = []
+for (let i = 0; i < ploschadPryamougolnika;) {
+    if (ploschadPryamougolnika < 49 && ploschadPryamougolnika > 36) {
+        arrayKvadratov11 = arrayKvadratov11 + '6'
+        ploschadPryamougolnika = ploschadPryamougolnika - 36
+    }
+    if (ploschadPryamougolnika < 36 && ploschadPryamougolnika > 25) {
+        arrayKvadratov11 = arrayKvadratov11 + '5'
+        ploschadPryamougolnika = ploschadPryamougolnika - 25
+    }
+    if (ploschadPryamougolnika < 25 && ploschadPryamougolnika > 16) {
+        arrayKvadratov11 = arrayKvadratov11 + '4'
+        ploschadPryamougolnika = ploschadPryamougolnika - 16
+    }
+    if (ploschadPryamougolnika < 16 && ploschadPryamougolnika > 9) {
+        arrayKvadratov11 = arrayKvadratov11 + '3'
+        ploschadPryamougolnika = ploschadPryamougolnika - 9
+    }
+    if (ploschadPryamougolnika < 9 && ploschadPryamougolnika > 4) {
+        arrayKvadratov11 = arrayKvadratov11 + '2'
+        ploschadPryamougolnika = ploschadPryamougolnika - 4
+    }
+    if (ploschadPryamougolnika < 4 && ploschadPryamougolnika >= 1) {
+        arrayKvadratov11 = arrayKvadratov11 + '1'
+        ploschadPryamougolnika = ploschadPryamougolnika - 1
+    }
+}
+console.log("ЗАДАЧА 11: ", arrayKvadratov11)
+
+/// ЗАДАЧА 12
+
+stroka12 = "abcabcabc"
+perviySimvol = stroka12[0]
+otvet12 = 1
+
+for (let i = 1; i < stroka12.length; i++) {
+    const element = stroka12[i];
+    if (element != perviySimvol) {
+        otvet12 = otvet12 + 1
+    }
+    else {
+        break
+    }
+}
+console.log("ЗАДАЧА 12: ", otvet12)
+
+/// ЗАДАЧА 13
+
+/// ЗАДАЧА 14
